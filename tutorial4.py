@@ -12,6 +12,7 @@ class SpaceShip(Sprite):
 
     def __init__(self, position):
         super().__init__(SpaceShip.asset, position)
+        print("made spaceship")
         
 class SpaceGame(App):
     """
