@@ -25,7 +25,5 @@ class SpaceGame(App):
         bg = Sprite(bg_asset, (0,0))
         SpaceShip((100,100))
 
-        
-
 myapp = SpaceGame(SCREEN_WIDTH, SCREEN_HEIGHT)
 myapp.run()
