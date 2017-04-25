@@ -25,6 +25,11 @@ class SpaceShip(Sprite):
         self.y += self.vy
         self.rotation += self.vr
         
+    def thrustOn(self, event):
+        self.thrust = 1
+        
+    def thrustOff(self, event):
+        self.thrust = 0
 class SpaceGame(App):
     """
     Tutorial4 space game example.
