@@ -36,8 +36,8 @@ class SpaceGame(App):
         SpaceShip((200,50))
         
         def step(self):
-        for ship in self.getSpritesbyClass(SpaceShip):
-        ship.step()
+            for ship in self.getSpritesbyClass(SpaceShip):
+                ship.step()
 
 myapp = SpaceGame(SCREEN_WIDTH, SCREEN_HEIGHT)
 myapp.run()
